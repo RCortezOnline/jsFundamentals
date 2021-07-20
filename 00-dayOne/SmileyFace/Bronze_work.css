@@ -1,0 +1,5 @@
+.movie-table, th, td {
+    background: lightskyblue;
+    border: solid black 2px;
+}
+
