@@ -100,3 +100,10 @@ console.log(startingWithLetter, _startingWithUnderscore, $startingWithDollarSign
 
         today - 'Awesome!';
         console.log(today, efa);
+
+        efa = 'Super';
+        console.log(roday, efa);
+
+        // When we create a const we have to give it a value or it will be empty and you will get an error 
+
+        

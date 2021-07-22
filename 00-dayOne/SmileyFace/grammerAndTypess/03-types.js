@@ -183,3 +183,20 @@ console.log(myName.length);
 
 let myNameIs = 'Jerome';
 console.log(myNameIs.toUpperCase());
+
+let home = 'My home is in Noblesville';
+console.log('Includes Method:', home.includes('Noblesville'))
+
+
+let str = 'This sentence will be split into individual parts';
+
+let words = str.split(' ');
+console.log(words[0],words[1], words[3], words[4], words[5], words[6], words[7], words[8]);
+
+let chars = str.split('');
+console.log(char[8]);
+
+let strCopy = str.split();
+console.log(strCopy); 
+
+let x = 25; 
