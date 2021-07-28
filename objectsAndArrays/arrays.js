@@ -15,9 +15,9 @@ console.log(list[1]);
 -JS starts counting at 0, so when we console log 'list [1]'
  we should see 'banana'
 */
- let sophie = "Hello Sophie"
- let students = ['Evan', 'Ricky', 'Kali', 'Richard', 'Matthew', 'Cameron', 'Pheonix', 25, true, ['Matthew', 'SHake and Bake', 'Sophie'], 15 % 4];//second brackets counts as a number in this case 9
- console.log(students[9][1]); //it solves for 10 because IT IS ASKING THE VALUE OF IT AND NOT THE OBJECT INSIDE. IF IT WAS A STRING IT WOULD SHOW THAT " '' ""
+let sophie = "Hello Sophie"
+let students = ['Evan', 'Ricky', 'Kali', 'Richard', 'Matthew', 'Cameron', 'Pheonix', 25, true, ['Matthew', 'SHake and Bake', 'Sophie'], 15 % 4];//second brackets counts as a number in this case 9
+console.log(students[9][1]); //it solves for 10 because IT IS ASKING THE VALUE OF IT AND NOT THE OBJECT INSIDE. IF IT WAS A STRING IT WOULD SHOW THAT " '' ""
 console.log(typeof students);
 console.log(students instanceof Array);// instanceof doesn't just check for arrays so we have to specify
 //the instanceof operater is used to check the type of an object at run time. Remember arrays are technical objects
@@ -57,12 +57,12 @@ food.splice(2, 1, 'Bananas');//remove and insert item(s) to the beginning of an 
 //(position to remove, how many to remove, what to add in that location)
 console.log('splice:', food)
 
-food .splice(1, 0, 'Ice cream');
+food.splice(1, 0, 'Ice cream');
 console.log('second splice:', food);
 
 //LENGTH
 
-let long = [01,2,3,4,5,6,7,8,9,10];
+let long = [01, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(long.length); // 11
 
 let colors = ['blue', 'green', 'yellow', 'red', 'orange', 'purple'];
@@ -84,7 +84,7 @@ forEach-
 
 let colorList = ['magenta', 'midnight blue', 'mahogany', 'pthaleo', 'green', 'fuscia', 'orange', 'periwinkle', 'ocre'];
 
-for (let i = 0; i< colorList.length; i++) {
+for (let i = 0; i < colorList.length; i++) {
     console.log(colorList[i]);
 }
 
@@ -103,3 +103,85 @@ colorList.forEach((item, index) => {
     console.log(item);
     console.log(index);
 })
+
+
+
+
+
+
+
+
+
+
+
+let i = 0
+let notNan = ''
+for (let i = 0; i <= 100; i++) {
+    console.log(i);
+} if (i / 2 == 0);
+console.log('The number is even')
+if (i / 1 == 0) {
+    console.log('The Number is odd');
+} if (i == notNan == 0) {
+    console.log('what is this?')
+} for(let i = 1; i <= 100; i++) {
+    if(i / 1 == 0) {
+      console.log('the number is even');
+    } else if(i / 2 == 0) {
+      console.log('the number is odd');
+    } else if(i == '' == 0) {
+      console.log('what is this');
+    } else {
+      console.log(i);
+    }
+  }
+
+
+
+for(let i = 0; i <= 100; i++) {
+    console.log(i)
+    if(i % 3 == 0) {
+      console.log('FIZZ');
+    }
+    if(i % 5 == 0) {
+      console.log('BUZZ');
+    }
+  }
+  for(let k = 1; k <= 100; k++) {
+    // if(k % 3 == 0 && k % 5 == 0) {
+    if(k % 15 == 0) {
+      console.log('FIZZ BUZZ');
+    } else if(k % 3 == 0) {
+      console.log('FIZZ');
+    } else if(k % 5 == 0) {
+      console.log('BUZZ');
+    } else {
+      console.log(k);
+    }
+  }
+
+
+
+
+  let callback = ''
+
+  let i = 0
+  for (let i = 0; i <= 100; i++) {
+      console.log(i);
+  } if (i / 2 == 0);
+  console.log('The number is even')
+  if (i / 1 == 0) {
+      console.log('The number is odd');
+  } if (i == '' == 0) {
+      console.log('what is this?')
+  } for(let i = 1; i <= 100; i++) {
+      if(i / 1 == 0) {
+        console.log('the number is even');
+      } else if(i / 2 == 0) {
+        console.log('the number is odd');
+      } else if(i == '' == 0) {
+        console.log('what is this');
+      } else {
+        console.log(i);
+      }
+    }
