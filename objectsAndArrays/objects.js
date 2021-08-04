@@ -160,3 +160,23 @@ let testObj = {
 
 console.log(testObj.noSpaces);
 console.log(testObj.['Spaces Here']);
+
+
+
+
+let movie = warrior 
+runTime = '2 hrs',
+genre = 'action';
+
+characters {
+    characterName: 'Tom Hardy';
+    age: 30;
+    altRoles: ['Venom', 'Mad Max', 'Legend'];
+}
+{
+    characterName: 'Nick Nolte';
+    age: 80
+    altRoles: ['Andgel has fallen', 'Parker'. 'Head FUll of Honey']
+
+}
+
